@@ -1,7 +1,7 @@
 import _ from 'underscore';
 // import { crearDeck as crearNuevoDeck } from './usecases/crear-deck.js' // Ponerle apodo al import
 // import crearDeck, { miNombre } from './usecases/crear-deck.js' // Cuando se declara el import default
-import { crearDeck, pedirCarta, valorCarta, turnoComputadora, crearCarta, acumularPuntos } from './usecases';
+import { crearDeck, pedirCarta, turnoComputadora, crearCarta, acumularPuntos, deshabilitarBotones } from './usecases';
 
 const miModulo = (() => {
   'use strict'
@@ -41,15 +41,7 @@ const miModulo = (() => {
 
       // Habilitar botones
       deshabilitarBotones(false);
-
-      // console.clear();
-  }
-
-
-  // Deshabilitar botones
-  const deshabilitarBotones = ( bool ) => {
-      btnPedir.disabled   = bool;
-      btnDetener.disabled = bool;
+      
   }
 
 

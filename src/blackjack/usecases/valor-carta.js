@@ -2,7 +2,7 @@
 /**
  * Esta función asigna el valor de la carta robada
  * 
- * @param {String} carta 
+ * @param {String} carta Carta que se debe mostrar
  * @returns {Number} Retorna el valor de la carta: el número si es un número, 11 si corresponde a un As, 10 para las demás figuras
  */
 
