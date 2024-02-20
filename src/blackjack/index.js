@@ -50,8 +50,6 @@ const miModulo = (() => {
   // Botón "Pedir carta"
   btnPedir.addEventListener('click', () => {
 
-    //   puntosJugadores[0] = 0;
-
       const carta = pedirCarta( deck );
       puntosJugadores[0] = acumularPuntos( puntosJugadores, 0 , carta, puntosHTML );
 
