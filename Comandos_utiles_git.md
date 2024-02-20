@@ -18,11 +18,11 @@
     <!-- genera una nueva rama de nombre 'nombre_rama' -->
 9. git checkout nombre_rama
     <!-- para cambiar hacia rama 'nombre_rama' -->
-<!-- git merge rama_a_fusionar -->
-    <!-- integra la rama 'rama_a_fusionar' con la rama activa -->
 10. git branch -d nombre_rama
     <!-- para borrar la rama 'nombre_rama' -->
 11. git push
     <!-- para cargar los datos del commit al repositorio remoto -->
 12. git commit -am "comentario_del_commit"
     <!-- para realizar add y commit en un solo paso -->
+13. Bonus: git merge rama_a_fusionar
+    <!-- integra la rama 'rama_a_fusionar' con la rama activa -->
